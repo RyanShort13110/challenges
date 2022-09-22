@@ -9,9 +9,7 @@ function feast(beast, dish) {
   }else{
     return false;
   }
-}
-
-
+};
 
 // test cases
 
@@ -27,7 +25,6 @@ Test.assertEquals(feast("electric eel", "lasagna"), false)
 Test.assertEquals(feast("slow loris", "salsas"), true)
 Test.assertEquals(feast("ox", "orange lox"), true)
 Test.assertEquals(feast("blue-footed booby", "blueberry"), true)
-
 
 //random tests
 function makeString(min, max) {
