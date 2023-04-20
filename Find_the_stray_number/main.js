@@ -24,6 +24,11 @@ function stray(numbers){
   }
 }
 
+// one line solution 😎
+
+const stray = (numbers) => numbers.sort((a,b)=>a-b)[0] == numbers.sort((a,b)=> a-b)[1] ? numbers[numbers.length -1 ] : numbers[0]
+
+
 
 // test cases
 
